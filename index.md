@@ -38,12 +38,13 @@ Official support is typically achieved through synchronization via cloud saves o
 Unofficial support requires your Nintendo Switch to have support for reading and writing save files through either DBI or JKSV,
 
 - The Witcher 3: Wild Hunt
-  - https://github.com/ioc0/Witcher-3-Save-Converter-
-  - https://www.deepfun.net/forum.php?mod=viewthread&tid=16542
+  - [ioc0/Witcher-3-Save-Converter-](https://github.com/ioc0/Witcher-3-Save-Converter-)
+  - [https://www.deepfun.net/forum.php?mod=viewthread&tid=16542](https://www.deepfun.net/forum.php?mod=viewthread&tid=16542)
 - Divinity: Original Sin II – Definitive Edition
-  - https://www.reddit.com/r/SwitchPirates/comments/d0e4os/divinity_original_sin_2_nosteam_cross_save_guide/
-  - https://www.bilibili.com/read/cv27290729/?jump_opus=1
+  - [https://www.reddit.com/r/SwitchPirates/comments/d0e4os/divinity_original_sin_2_nosteam_cross_save_guide/](https://www.reddit.com/r/SwitchPirates/comments/d0e4os/divinity_original_sin_2_nosteam_cross_save_guide/)
+  - [https://www.bilibili.com/read/cv27290729/?jump_opus=1](https://www.bilibili.com/read/cv27290729/?jump_opus=1)
 - Disco Elysium
+  - [GrayXu/Disco-Elysium-Save-Converter](https://github.com/GrayXu/Disco-Elysium-Save-Converter)
 - Undertale
   - [tomchapin/undertale-save-converter](https://github.com/tomchapin/undertale-save-converter)
   - [jonyluke/Undertale-save-converter](https://github.com/jonyluke/Undertale-save-converter)
