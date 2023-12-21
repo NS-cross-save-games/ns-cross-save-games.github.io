@@ -1,7 +1,6 @@
 ---
 layout: default
-title: NS Cross Save Games
-description: Nintendo Switch Cross Save Games
+title: Nintendo Switch Cross Save Games
 ---
 
 This webpage lists a series of Nintendo Switch games **compatible with cross-platform save** files (cross save). Some of them achieve official support through mechanisms like cloud saves, while others have compatible save files but lack implementation from the developers
