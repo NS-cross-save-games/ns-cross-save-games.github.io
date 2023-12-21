@@ -3,7 +3,7 @@ layout: default
 title: Nintendo Switch Cross Save Games
 ---
 
-This webpage lists a series of Nintendo Switch games **compatible with cross-platform save** files (cross save). Some of them achieve official support through mechanisms like cloud saves, while others have compatible save files but lack implementation from the developers
+This webpage lists a series of Nintendo Switch games **compatible with cross-platform save files** (cross-save). Some of them achieve official support through mechanisms like cloud saves, while others, although having compatible save files, lack implementation from the developers and may require additional hacking for functionality.
 
 # Official Support
 
@@ -91,10 +91,10 @@ Unofficial support requires your Nintendo Switch to have support for reading and
 - Inside
 - Lttle Nightmare
 - Thimbleweed Park
-- cities skylines
-- mutant year zero
-- ion fury
-- amnesia
+- Cities Skylines
+- Mutant Year Zero
+- Ion Fury
+- Amnesia
 - Battle Chef Brigade
 - Dust: An Elysian Tale
 - Eastward
@@ -104,7 +104,7 @@ Unofficial support requires your Nintendo Switch to have support for reading and
 - Dragon Quest 11S
 - Salt and Sanctuary
 - Children of Morta
-- Darkest Dungeon
+- Darkest Dugeon
 - Horizon Chase Turbo 
   - rename latest "1000_userprofile!*!.sav" as "_RR_autosave"
 - Blossom Tales
@@ -115,7 +115,7 @@ Unofficial support requires your Nintendo Switch to have support for reading and
 - Owlboy
 - Shinobi Spirits S Legend of Heroes
 - Sonic Mania
-- Jamestown+
+- Jamestown
 - Bloodstained Curse of the Moon 
   - copy GameData*.bin only, not SystemData.bin
 - Devil Engine
@@ -141,3 +141,7 @@ Unofficial support requires your Nintendo Switch to have support for reading and
 
 1. [https://gbatemp.net/threads/successful-savegame-transfers-between-pc-and-switch.561000/](https://gbatemp.net/threads/successful-savegame-transfers-between-pc-and-switch.561000/)
 2. [https://nintendo.fandom.com/wiki/List_of_Nintendo_Switch_games_with_Cross-Save](https://nintendo.fandom.com/wiki/List_of_Nintendo_Switch_games_with_Cross-Save)
+
+---
+
+Feel free to share and attach your successful attempts via [issues or pull requests](https://github.com/NS-cross-save-games/ns-cross-save-games.github.io).
