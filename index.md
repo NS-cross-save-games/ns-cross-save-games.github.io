@@ -62,7 +62,7 @@ Unofficial support requires your Nintendo Switch to have support for reading and
   - [https://www.reddit.com/r/SwitchPirates/comments/10j8ard/persona_4_goldenpersona_3_portable_pc_steam_to/](https://www.reddit.com/r/SwitchPirates/comments/10j8ard/persona_4_goldenpersona_3_portable_pc_steam_to/)
 - Octopath Traveler 1/2
   - [https://www.reddit.com/r/SwitchPirates/comments/111t7dd/octopath_traveler_2_save_transfer_pc_to_switch/](https://www.reddit.com/r/SwitchPirates/comments/111t7dd/octopath_traveler_2_save_transfer_pc_to_switch/)
-- Borderlands 2
+- Borderlands 1/2/3
   - [https://www.reddit.com/r/SwitchPirates/comments/gunuh5/how_to_transfer_borderlands_2_pc_save_to_switch/](https://www.reddit.com/r/SwitchPirates/comments/gunuh5/how_to_transfer_borderlands_2_pc_save_to_switch/)
 - Hollow Knight
   - [https://bloodorca.github.io/hollow/](https://bloodorca.github.io/hollow/)
