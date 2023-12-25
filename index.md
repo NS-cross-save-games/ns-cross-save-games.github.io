@@ -78,6 +78,8 @@ Unofficial support requires your Nintendo Switch to have support for reading and
   - [https://www.reddit.com/r/DragonsDogma/comments/d1kwqp/can_you_transfer_dragons_dogma_saves_from/](https://www.reddit.com/r/DragonsDogma/comments/d1kwqp/can_you_transfer_dragons_dogma_saves_from/)
 - BloodStained
   - [https://gbatemp.net/threads/convert-bloodstained-pc-save-to-ps4-ns.541793/](https://gbatemp.net/threads/convert-bloodstained-pc-save-to-ps4-ns.541793/)
+- Ori and the Will of the Wisps
+  - Copy all \*.uberstate files
 - Baba Is You
 - Bad North
 - CrossCode
