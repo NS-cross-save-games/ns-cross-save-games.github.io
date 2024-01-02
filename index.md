@@ -93,6 +93,8 @@ Unofficial support requires your Nintendo Switch to have support for reading and
 - Ion Fury
 - Jamestown
 - Katana Zero
+- LEGO Star Wars: The Skywalker Saga
+  - [Issues #2](https://github.com/NS-cross-save-games/ns-cross-save-games.github.io/issues/2)
 - Loop Hero
   - [CaioEmPessoa/Save2Switch](https://github.com/CaioEmPessoa/Save2Switch)
 - Lttle Nightmare
@@ -102,6 +104,7 @@ Unofficial support requires your Nintendo Switch to have support for reading and
 - Minecraft
   - [https://www.reddit.com/r/SwitchPirates/comments/11j1hnf/transfer_minecraft_switch_world_to_pc/](https://www.reddit.com/r/SwitchPirates/comments/11j1hnf/transfer_minecraft_switch_world_to_pc/)
 - Mutant Year Zero
+- No Man's Sky
 - Octopath Traveler 1/2
   - [https://www.reddit.com/r/SwitchPirates/comments/111t7dd/octopath_traveler_2_save_transfer_pc_to_switch/](https://www.reddit.com/r/SwitchPirates/comments/111t7dd/octopath_traveler_2_save_transfer_pc_to_switch/)
 - Ori and the Will of the Wisps
@@ -142,11 +145,12 @@ Unofficial support requires your Nintendo Switch to have support for reading and
 - Yooka Laylee
 - Yooka Laylee and the Impossible Lair
 
-# Ref
+# Reference
 
 1. [https://gbatemp.net/threads/successful-savegame-transfers-between-pc-and-switch.561000/](https://gbatemp.net/threads/successful-savegame-transfers-between-pc-and-switch.561000/)
 2. [https://www.reddit.com/r/SwitchPirates/](https://www.reddit.com/r/SwitchPirates/)
-3. [https://nintendo.fandom.com/wiki/List_of_Nintendo_Switch_games_with_Cross-Save](https://nintendo.fandom.com/wiki/List_of_Nintendo_Switch_games_with_Cross-Save)
+3. [Cross Platform Play - Steam](https://store.steampowered.com/curator/39520863-Cross-Platform-Play/list/72511/)
+4. [https://nintendo.fandom.com/wiki/List_of_Nintendo_Switch_games_with_Cross-Save](https://nintendo.fandom.com/wiki/List_of_Nintendo_Switch_games_with_Cross-Save)
 
 ---
 
