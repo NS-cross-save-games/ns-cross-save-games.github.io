@@ -69,8 +69,11 @@ Unofficial support requires your Nintendo Switch to have support for reading and
 - Divinity: Original Sin II – Definitive Edition
   - [https://www.reddit.com/r/SwitchPirates/comments/d0e4os/divinity_original_sin_2_nosteam_cross_save_guide/](https://www.reddit.com/r/SwitchPirates/comments/d0e4os/divinity_original_sin_2_nosteam_cross_save_guide/)
   - [https://www.bilibili.com/read/cv27290729/?jump_opus=1](https://www.bilibili.com/read/cv27290729/?jump_opus=1)
+- Don't Starve Together
+  - [gbatemp](https://gbatemp.net/threads/convert-pc-world-of-dont-starve-together-to-switch.641484/), [NXGameScripts](https://github.com/masagrator/NXGameScripts/blob/main/Don't%20Starve%20Together/ConvertPCWorldToSwitch.py)
 - Double Cross
 - Dragon Quest 11S
+  - [https://gbatemp.net/threads/dragon-quest-xi-s-save-conversion.578378/post-9971042](https://gbatemp.net/threads/dragon-quest-xi-s-save-conversion.578378/post-9971042)
 - Dragons dogma dark arisen
   - [https://www.reddit.com/r/DragonsDogma/comments/d1kwqp/can_you_transfer_dragons_dogma_saves_from/](https://www.reddit.com/r/DragonsDogma/comments/d1kwqp/can_you_transfer_dragons_dogma_saves_from/)
 - Dust: An Elysian Tale
@@ -80,12 +83,13 @@ Unofficial support requires your Nintendo Switch to have support for reading and
 - Fairy Fencer Advent Dark Force
 - Hollow Knight
   - [https://bloodorca.github.io/hollow/](https://bloodorca.github.io/hollow/)
+- Horizon Chase 2
 - Horizon Chase Turbo 
   - rename latest "1000_userprofile!*!.sav" as "_RR_autosave"
 - Huntdown
 - Hyper Light Drifter
 - Ice Station Z
-  - [Cracko298/ISZ2-SAVE-CONVERTER](https://github.com/Cracko298/ISZ2-SAVE-CONVERTER)
+  - [Cracko298/ISZ2021-Save-Converter](https://github.com/Cracko298/ISZ2021-Save-Converter)
 - Icey
   - mv save_data.bin UserData && truncate -s 2048 UserData
 - Impossible Lair
@@ -121,6 +125,7 @@ Unofficial support requires your Nintendo Switch to have support for reading and
 - Shinobi Spirits S Legend of Heroes
 - Shovel Knight
 - Skyrim
+  - [https://gbatemp.net/threads/tutorial-edit-your-skyrim-switch-saves-and-add-custom-saves.506791/](https://gbatemp.net/threads/tutorial-edit-your-skyrim-switch-saves-and-add-custom-saves.506791/)
 - Slay the Spire
 - Sonic Mania
 - Spidersaurs
@@ -129,6 +134,8 @@ Unofficial support requires your Nintendo Switch to have support for reading and
   - [https://www.reddit.com/r/SwitchHaxing/comments/gzi5of/guide_how_to_transfer_stardew_valley_saves/](https://www.reddit.com/r/SwitchHaxing/comments/gzi5of/guide_how_to_transfer_stardew_valley_saves/)
 - Team Sonic Racing
   - not working with updated PC ver?
+- The Binding of Isaac: Afterbirth+
+  - [Binding of isaac Afterbirth Plus save transfer PC to Switch Tutorial](https://gbatemp.net/threads/binding-of-isaac-afterbirth-plus-save-transfer-pc-to-switch-tutorial.515894/)
 - The Witcher 3: Wild Hunt
   - [ioc0/Witcher-3-Save-Converter-](https://github.com/ioc0/Witcher-3-Save-Converter-)
   - [https://www.deepfun.net/forum.php?mod=viewthread&tid=16542](https://www.deepfun.net/forum.php?mod=viewthread&tid=16542)
@@ -151,6 +158,7 @@ Unofficial support requires your Nintendo Switch to have support for reading and
 2. [https://www.reddit.com/r/SwitchPirates/](https://www.reddit.com/r/SwitchPirates/)
 3. [Cross Platform Play - Steam](https://store.steampowered.com/curator/39520863-Cross-Platform-Play/list/72511/)
 4. [https://nintendo.fandom.com/wiki/List_of_Nintendo_Switch_games_with_Cross-Save](https://nintendo.fandom.com/wiki/List_of_Nintendo_Switch_games_with_Cross-Save)
+5. [https://github.com/masagrator/NXGameScripts](https://github.com/masagrator/NXGameScripts)
 
 ---
 
