@@ -8,9 +8,11 @@ Some of these games have official support through mechanisms such as cloud saves
 
 Hope this website can help you play games cross-platform between Switch and PC.
 
+***Feel free to share and attach your successful attempts via [Issues](https://github.com/NS-cross-save-games/ns-cross-save-games.github.io/issues?q=is%3Aissue) or [Discussions](https://github.com/orgs/NS-cross-save-games/discussions).***
+
 # Official Support
 
-Official support is typically achieved through synchronization via cloud saves on platforms such as Steam.
+In addition to online games, official support for cross-save is typically achieved through cloud saves on platforms like Steam and Nintendo to synchronize progress.
 
 - Civilization VI
   - 2K account
@@ -160,6 +162,3 @@ Unofficial support requires your Nintendo Switch to have support for reading and
 4. [https://nintendo.fandom.com/wiki/List_of_Nintendo_Switch_games_with_Cross-Save](https://nintendo.fandom.com/wiki/List_of_Nintendo_Switch_games_with_Cross-Save)
 5. [https://github.com/masagrator/NXGameScripts](https://github.com/masagrator/NXGameScripts)
 
----
-
-Feel free to share and attach your successful attempts via [issues or pull requests](https://github.com/NS-cross-save-games/ns-cross-save-games.github.io).
