@@ -47,6 +47,7 @@ Unofficial support requires your Nintendo Switch to have support for reading and
 - Andro dunos 2
 - Baba Is You
 - Bad North
+- Balatro
 - Battle Chef Brigade
 - Blazing Chrome
   - needs removed header + base64 decode
