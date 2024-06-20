@@ -84,6 +84,9 @@ Unofficial support requires your Nintendo Switch to have support for reading and
   - [https://www.reddit.com/r/SwitchPirates/comments/qb23vk/dying_light_pc_to_switch_save_transfer_super_easy/](https://www.reddit.com/r/SwitchPirates/comments/qb23vk/dying_light_pc_to_switch_save_transfer_super_easy/)
 - Eastward
 - Fairy Fencer Advent Dark Force
+- Gylt's Stadia
+  - rename save.bin to ValleySaveGameSlot.
+- Hogwarts Legacy
 - Hollow Knight
   - [https://bloodorca.github.io/hollow/](https://bloodorca.github.io/hollow/)
 - Horizon Chase 2
