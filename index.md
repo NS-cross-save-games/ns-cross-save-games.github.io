@@ -82,6 +82,7 @@ Unofficial support requires your Nintendo Switch to have support for reading and
 - Dust: An Elysian Tale
 - Dying Light
   - [https://www.reddit.com/r/SwitchPirates/comments/qb23vk/dying_light_pc_to_switch_save_transfer_super_easy/](https://www.reddit.com/r/SwitchPirates/comments/qb23vk/dying_light_pc_to_switch_save_transfer_super_easy/)
+- DYSMANTLE
 - Eastward
 - Fairy Fencer Advent Dark Force
 - Gylt's Stadia
