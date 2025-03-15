@@ -139,6 +139,7 @@ Unofficial support requires your Nintendo Switch to have support for reading and
   - needs removed header
 - Stardew Valley
   - [https://www.reddit.com/r/SwitchHaxing/comments/gzi5of/guide_how_to_transfer_stardew_valley_saves/](https://www.reddit.com/r/SwitchHaxing/comments/gzi5of/guide_how_to_transfer_stardew_valley_saves/)
+- Tales of Graces f Remastered
 - Team Sonic Racing
   - not working with updated PC ver?
 - The Binding of Isaac: Afterbirth+
