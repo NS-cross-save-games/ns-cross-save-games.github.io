@@ -42,7 +42,7 @@ lang: zh
 
 非官方支持需要您的任天堂 Switch 支持通过 [DBI](https://github.com/rashevskyv/dbi) 或 [JKSV](https://github.com/J-D-K/JKSV) 读取和写入存档文件。
 
-- AI 梦境档案（Ai The Somnium）
+- AI 梦境档案（AI: The Somnium Files）
   - [https://www.reddit.com/r/SwitchPirates/comments/vz78wo/tip_transfer_ai_the_somnium_files_switch_savedata/](https://www.reddit.com/r/SwitchPirates/comments/vz78wo/tip_transfer_ai_the_somnium_files_switch_savedata/)
 - 失忆症（Amnesia）
 - 安卓地牢 2（Andro dunos 2）
