@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Nintendo Switch Cross Save Games
+lang: en
 ---
 
 This webpage lists a series of Nintendo Switch games **compatible with cross-platform save files** (*cross-saves, cross progression*).

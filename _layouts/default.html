@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
 
@@ -11,11 +11,52 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
+    <style>
+      .lang-toggle {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+      }
+      .lang-toggle a {
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+        font-size: 14px;
+        padding: 8px 12px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        transition: all 0.3s ease;
+        background: rgba(255, 255, 255, 0.1);
+        display: inline-block;
+      }
+      .lang-toggle a:hover {
+        color: rgba(255, 255, 255, 1);
+        border-color: rgba(255, 255, 255, 0.8);
+        background: rgba(255, 255, 255, 0.2);
+      }
+      @media screen and (max-width: 42em) {
+        .lang-toggle {
+          top: 10px;
+          right: 10px;
+        }
+        .lang-toggle a {
+          font-size: 12px;
+          padding: 6px 10px;
+        }
+      }
+    </style>
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
+      <div class="lang-toggle">
+        {% if page.lang == 'zh' %}
+          <a href="{{ site.baseurl }}/">English</a>
+        {% else %}
+          <a href="{{ site.baseurl }}/index_zh.html">中文</a>
+        {% endif %}
+      </div>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <!-- <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
       <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
