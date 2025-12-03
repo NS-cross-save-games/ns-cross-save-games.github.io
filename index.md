@@ -94,7 +94,7 @@ Unofficial support requires your Nintendo Switch to have support for reading and
 - Fairy Fencer Advent Dark Force
 - Fantasy Life i
 - GRIS
-  - PC to Switch: Remove extensions from Persistent.gs and Progress.gs and pad the file with hex editor until it's 2048kb
+  - PC to Switch: Remove extensions from Persistent.gs and Progress.gs and pad the file with hex editor until it's 2048 KB
 - Gylt's Stadia
   - rename save.bin to ValleySaveGameSlot.
 - Hogwarts Legacy
