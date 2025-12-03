@@ -59,13 +59,19 @@ Unofficial support requires your Nintendo Switch to have support for reading and
 - Blossom Tales
 - Borderlands 1/2/3
   - [https://www.reddit.com/r/SwitchPirates/comments/gunuh5/how_to_transfer_borderlands_2_pc_save_to_switch/](https://www.reddit.com/r/SwitchPirates/comments/gunuh5/how_to_transfer_borderlands_2_pc_save_to_switch/)
+- Bravely Default 2
 - Chasm
 - Children of Morta
 - Cities Skylines
+- Crisis Core Final Fantasy VII Reunion
 - CrossCode
 - Cuphead
   - [https://www.reddit.com/r/SwitchPirates/comments/vdhezs/transfer_savefiles_from_pc_to_switch_cuphead_and/](https://www.reddit.com/r/SwitchPirates/comments/vdhezs/transfer_savefiles_from_pc_to_switch_cuphead_and/)
 - Darkest Dugeon
+- Dave the Diver
+  - Rename (remove) file extensions to match save filename format on target platform
+- Death's Door
+  - PC to Switch and vice versa, needs hex editing (cancel if to PC, add if to Switch) a part of the header
 - Devil Engine
 - Disco Elysium
   - [GrayXu/Disco-Elysium-Save-Converter](https://github.com/GrayXu/Disco-Elysium-Save-Converter)
@@ -84,7 +90,11 @@ Unofficial support requires your Nintendo Switch to have support for reading and
   - [https://www.reddit.com/r/SwitchPirates/comments/qb23vk/dying_light_pc_to_switch_save_transfer_super_easy/](https://www.reddit.com/r/SwitchPirates/comments/qb23vk/dying_light_pc_to_switch_save_transfer_super_easy/)
 - DYSMANTLE
 - Eastward
+- Ender Lilies
 - Fairy Fencer Advent Dark Force
+- Fantasy Life i
+- GRIS
+  - PC to Switch: Remove extensions from Persistent.gs and Progress.gs and pad the file with hex editor until it's 2048 KB
 - Gylt's Stadia
   - rename save.bin to ValleySaveGameSlot.
 - Hogwarts Legacy
@@ -126,9 +136,16 @@ Unofficial support requires your Nintendo Switch to have support for reading and
 - Persona 5 Royal
   - [https://www.reddit.com/r/SwitchPirates/comments/yb3ngd/is_there_a_way_to_transfer_saves_between_pc_and/](https://www.reddit.com/r/SwitchPirates/comments/yb3ngd/is_there_a_way_to_transfer_saves_between_pc_and/)
 - Rolling Gunner
+- Rune Factory 3 Special
+- Rune Factory 4 Special
+  - Requires converter tool
+- Rune Factory 5
+- Rune Factory: Guardians of Azuma
+  - PC to Switch: Delete .sav before inject, exclude system and setting folders
 - Salt and Sanctuary
 - Shantae Seven Sirens
   - needs added header
+- Shin Megami Tensei V Vengeance
 - Shinobi Spirits S Legend of Heroes
 - Shovel Knight
 - Skyrim
@@ -159,6 +176,7 @@ Unofficial support requires your Nintendo Switch to have support for reading and
 - Wasteland 2
 - Yooka Laylee
 - Yooka Laylee and the Impossible Lair
+- Ys VIII Lacrimosa of Dana
 
 # Reference
 
