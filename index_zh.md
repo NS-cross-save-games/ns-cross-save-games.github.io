@@ -49,7 +49,7 @@ lang: zh
 - Baba 是你（Baba Is You）
 - 坏北方（Bad North）
 - 幸运小丑牌（Balatro）
-- 战斗厨师旅（Battle Chef Brigade）
+- 战斗厨师旅团（Battle Chef Brigade）
 - 烈焰铬金（Blazing Chrome）
   - 需要移除头部 + base64 解码
 - 流血（Bleed）
@@ -61,11 +61,11 @@ lang: zh
 - 无主之地 1/2/3（Borderlands 1/2/3）
   - [https://www.reddit.com/r/SwitchPirates/comments/gunuh5/how_to_transfer_borderlands_2_pc_save_to_switch/](https://www.reddit.com/r/SwitchPirates/comments/gunuh5/how_to_transfer_borderlands_2_pc_save_to_switch/)
 - 勇气默示录 2（Bravely Default 2）
-- 深渊（Chasm）
+- 深渊矿坑（Chasm）
 - 莫塔之子（Children of Morta）
 - 城市：天际线（Cities Skylines）
 - 核心危机：最终幻想 VII 重聚（Crisis Core Final Fantasy VII Reunion）
-- 交叉代码（CrossCode）
+- 远星物语（CrossCode）
 - 茶杯头（Cuphead）
   - [https://www.reddit.com/r/SwitchPirates/comments/vdhezs/transfer_savefiles_from_pc_to_switch_cuphead_and/](https://www.reddit.com/r/SwitchPirates/comments/vdhezs/transfer_savefiles_from_pc_to_switch_cuphead_and/)
 - 暗黑地牢（Darkest Dugeon）
@@ -90,11 +90,11 @@ lang: zh
 - 消逝的光芒（Dying Light）
   - [https://www.reddit.com/r/SwitchPirates/comments/qb23vk/dying_light_pc_to_switch_save_transfer_super_easy/](https://www.reddit.com/r/SwitchPirates/comments/qb23vk/dying_light_pc_to_switch_save_transfer_super_easy/)
 - 拆解（DYSMANTLE）
-- 东方（Eastward）
-- 终结百合：骑士寂夜（Ender Lilies）
+- 百英亩庄园（Eastward）
+- 终结的莉莉丝：骑士寂夜（Ender Lilies）
 - 妖精剑士 F 降临暗力（Fairy Fencer Advent Dark Force）
 - 幻想生活 i（Fantasy Life i）
-- 风之旅人（GRIS）
+- GRIS（GRIS）
   - PC 到 Switch：从 Persistent.gs 和 Progress.gs 中移除扩展名，并使用十六进制编辑器填充文件直到它达到 2048 KB
 - Gylt 的 Stadia（Gylt's Stadia）
   - 将 save.bin 重命名为 ValleySaveGameSlot
@@ -111,10 +111,10 @@ lang: zh
 - 艾希（Icey）
   - mv save_data.bin UserData && truncate -s 2048 UserData
 - 不可能的巢穴（Impossible Lair）
-- 深入内部（Inside）
-- 离子狂怒（Ion Fury）
+- 囚禁（Inside）
+- 离子少女（Ion Fury）
 - 詹姆斯敦（Jamestown）
-- 零号武士（Katana Zero）
+- 武士零（Katana Zero）
 - 乐高星球大战：天行者传奇（LEGO Star Wars: The Skywalker Saga）
   - [Issues #2](https://github.com/NS-cross-save-games/ns-cross-save-games.github.io/issues/2)
 - 循环英雄（Loop Hero）
@@ -144,7 +144,7 @@ lang: zh
 - 符文工房：阿祖玛守护者（Rune Factory: Guardians of Azuma）
   - PC 到 Switch：注入前删除 .sav，排除系统和设置文件夹
 - 盐与避难所（Salt and Sanctuary）
-- 珊蒂七海妖（Shantae Seven Sirens）
+- 桑塔：七位海妖（Shantae Seven Sirens）
   - 需要添加头部
 - 真·女神转生 V 复仇（Shin Megami Tensei V Vengeance）
 - 忍之灵 S 英雄传说（Shinobi Spirits S Legend of Heroes）
