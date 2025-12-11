@@ -178,8 +178,8 @@
 
     <header class="page-header" role="banner">
       <div class="header-controls">
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark mode">
-          <span class="theme-icon">🌙</span>
+        <button class="theme-toggle" id="theme-toggle" role="switch" aria-label="Switch to dark mode" aria-checked="false" title="Switch to dark mode">
+          <span class="theme-icon" aria-hidden="true">🌙</span>
         </button>
         <div class="lang-toggle">
           {% if page.lang == 'zh' %}
@@ -232,10 +232,14 @@
             html.setAttribute('data-theme', 'dark');
             themeIcon.textContent = '☀️';
             themeToggle.setAttribute('title', 'Switch to light mode');
+            themeToggle.setAttribute('aria-label', 'Switch to light mode');
+            themeToggle.setAttribute('aria-checked', 'true');
           } else {
             html.removeAttribute('data-theme');
             themeIcon.textContent = '🌙';
             themeToggle.setAttribute('title', 'Switch to dark mode');
+            themeToggle.setAttribute('aria-label', 'Switch to dark mode');
+            themeToggle.setAttribute('aria-checked', 'false');
           }
           localStorage.setItem('theme', theme);
         }
