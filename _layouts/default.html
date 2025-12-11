@@ -12,36 +12,163 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
     <style>
-      .lang-toggle {
+      /* Theme Variables */
+      :root {
+        --bg-color: #f5f5f7;
+        --text-color: #1d1d1f;
+        --header-bg-start: #159957;
+        --header-bg-end: #155799;
+        --link-color: #0071e3;
+        --link-hover-color: #0077ed;
+        --code-bg: #f5f5f5;
+        --code-text: #333;
+        --border-color: rgba(0, 0, 0, 0.1);
+        --section-bg: #ffffff;
+        --footer-text: #86868b;
+        --toggle-bg: rgba(255, 255, 255, 0.15);
+        --toggle-hover-bg: rgba(255, 255, 255, 0.25);
+        --toggle-border: rgba(255, 255, 255, 0.3);
+        --toggle-text: rgba(255, 255, 255, 0.9);
+      }
+
+      [data-theme="dark"] {
+        --bg-color: #000000;
+        --text-color: #f5f5f7;
+        --header-bg-start: #1d1d1f;
+        --header-bg-end: #2c2c2e;
+        --link-color: #2997ff;
+        --link-hover-color: #409cff;
+        --code-bg: #1c1c1e;
+        --code-text: #f5f5f7;
+        --border-color: rgba(255, 255, 255, 0.15);
+        --section-bg: #1c1c1e;
+        --footer-text: #86868b;
+        --toggle-bg: rgba(255, 255, 255, 0.1);
+        --toggle-hover-bg: rgba(255, 255, 255, 0.2);
+        --toggle-border: rgba(255, 255, 255, 0.3);
+        --toggle-text: rgba(255, 255, 255, 0.9);
+      }
+
+      body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+
+      .main-content {
+        background-color: var(--section-bg);
+        transition: background-color 0.3s ease;
+      }
+
+      .main-content h1,
+      .main-content h2,
+      .main-content h3,
+      .main-content h4,
+      .main-content h5,
+      .main-content h6 {
+        color: var(--text-color);
+      }
+
+      .main-content a {
+        color: var(--link-color);
+      }
+
+      .main-content a:hover {
+        color: var(--link-hover-color);
+      }
+
+      .main-content code {
+        background-color: var(--code-bg);
+        color: var(--code-text);
+        border-color: var(--border-color);
+      }
+
+      .main-content pre {
+        background-color: var(--code-bg);
+        border-color: var(--border-color);
+      }
+
+      .main-content pre > code {
+        background-color: var(--code-bg);
+      }
+
+      .main-content blockquote {
+        border-left-color: var(--border-color);
+        color: var(--text-color);
+      }
+
+      .main-content table td,
+      .main-content table th {
+        border-color: var(--border-color);
+      }
+
+      .site-footer {
+        color: var(--footer-text);
+      }
+
+      .page-header {
+        background: linear-gradient(120deg, var(--header-bg-start), var(--header-bg-end));
+        transition: background 0.3s ease;
+      }
+
+      .header-controls {
         position: absolute;
         top: 20px;
         right: 20px;
         z-index: 1000;
+        display: flex;
+        gap: 10px;
+        align-items: center;
       }
+
+      .theme-toggle,
       .lang-toggle a {
-        color: rgba(255, 255, 255, 0.7);
+        color: var(--toggle-text);
         text-decoration: none;
         font-size: 14px;
         padding: 8px 12px;
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        border-radius: 4px;
+        border: 1px solid var(--toggle-border);
+        border-radius: 8px;
         transition: all 0.3s ease;
-        background: rgba(255, 255, 255, 0.1);
+        background: var(--toggle-bg);
         display: inline-block;
+        cursor: pointer;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
       }
+
+      .theme-toggle:hover,
       .lang-toggle a:hover {
-        color: rgba(255, 255, 255, 1);
-        border-color: rgba(255, 255, 255, 0.8);
-        background: rgba(255, 255, 255, 0.2);
+        background: var(--toggle-hover-bg);
+        border-color: rgba(255, 255, 255, 0.5);
+        transform: translateY(-1px);
       }
+
+      .theme-toggle {
+        border: none;
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
       @media screen and (max-width: 42em) {
-        .lang-toggle {
+        .header-controls {
           top: 10px;
           right: 10px;
+          gap: 6px;
         }
         .lang-toggle a {
           font-size: 12px;
           padding: 6px 10px;
+        }
+        .theme-toggle {
+          width: 36px;
+          height: 36px;
+          font-size: 18px;
         }
       }
     </style>
@@ -50,12 +177,17 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <div class="lang-toggle">
-        {% if page.lang == 'zh' %}
-          <a href="{{ site.baseurl }}/">English</a>
-        {% else %}
-          <a href="{{ site.baseurl }}/index_zh.html">中文</a>
-        {% endif %}
+      <div class="header-controls">
+        <button class="theme-toggle" id="theme-toggle" role="switch" aria-label="Switch to dark mode" aria-checked="false" title="Switch to dark mode">
+          <span class="theme-icon" aria-hidden="true">🌙</span>
+        </button>
+        <div class="lang-toggle">
+          {% if page.lang == 'zh' %}
+            <a href="{{ site.baseurl }}/">English</a>
+          {% else %}
+            <a href="{{ site.baseurl }}/index_zh.html">中文</a>
+          {% endif %}
+        </div>
       </div>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <!-- <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
@@ -73,5 +205,66 @@
         {% endif %}
       </footer>
     </main>
+
+    <script>
+      // Theme toggle functionality
+      (function() {
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = document.querySelector('.theme-icon');
+        const html = document.documentElement;
+
+        // Check for saved theme preference or default to OS preference
+        function getInitialTheme() {
+          const savedTheme = localStorage.getItem('theme');
+          if (savedTheme) {
+            return savedTheme;
+          }
+          // Check OS preference
+          if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            return 'dark';
+          }
+          return 'light';
+        }
+
+        // Set theme
+        function setTheme(theme) {
+          if (theme === 'dark') {
+            html.setAttribute('data-theme', 'dark');
+            themeIcon.textContent = '☀️';
+            themeToggle.setAttribute('title', 'Switch to light mode');
+            themeToggle.setAttribute('aria-label', 'Switch to light mode');
+            themeToggle.setAttribute('aria-checked', 'true');
+          } else {
+            html.removeAttribute('data-theme');
+            themeIcon.textContent = '🌙';
+            themeToggle.setAttribute('title', 'Switch to dark mode');
+            themeToggle.setAttribute('aria-label', 'Switch to dark mode');
+            themeToggle.setAttribute('aria-checked', 'false');
+          }
+          localStorage.setItem('theme', theme);
+        }
+
+        // Initialize theme
+        const initialTheme = getInitialTheme();
+        setTheme(initialTheme);
+
+        // Toggle theme on button click
+        themeToggle.addEventListener('click', function() {
+          const currentTheme = html.getAttribute('data-theme');
+          const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+          setTheme(newTheme);
+        });
+
+        // Listen for OS theme changes
+        if (window.matchMedia) {
+          window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+            // Only auto-switch if user hasn't manually set a preference
+            if (!localStorage.getItem('theme')) {
+              setTheme(e.matches ? 'dark' : 'light');
+            }
+          });
+        }
+      })();
+    </script>
   </body>
 </html>
