@@ -86,6 +86,8 @@ Unofficial support requires your Nintendo Switch to have support for reading and
   - [https://gbatemp.net/threads/dragon-quest-xi-s-save-conversion.578378/post-9971042](https://gbatemp.net/threads/dragon-quest-xi-s-save-conversion.578378/post-9971042)
 - Dragons dogma dark arisen
   - [https://www.reddit.com/r/DragonsDogma/comments/d1kwqp/can_you_transfer_dragons_dogma_saves_from/](https://www.reddit.com/r/DragonsDogma/comments/d1kwqp/can_you_transfer_dragons_dogma_saves_from/)
+- Dreamscaper
+  - Switch to PC: Add ".sav" extension to DreamscaperSaveSlot file. PC to Switch: Remove ".sav" extension
 - Dust: An Elysian Tale
 - Dying Light
   - [https://www.reddit.com/r/SwitchPirates/comments/qb23vk/dying_light_pc_to_switch_save_transfer_super_easy/](https://www.reddit.com/r/SwitchPirates/comments/qb23vk/dying_light_pc_to_switch_save_transfer_super_easy/)

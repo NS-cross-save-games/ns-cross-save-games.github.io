@@ -86,6 +86,8 @@ lang: zh
   - [https://gbatemp.net/threads/dragon-quest-xi-s-save-conversion.578378/post-9971042](https://gbatemp.net/threads/dragon-quest-xi-s-save-conversion.578378/post-9971042)
 - 龙之信条：黑暗觉者（Dragons dogma dark arisen）
   - [https://www.reddit.com/r/DragonsDogma/comments/d1kwqp/can_you_transfer_dragons_dogma_saves_from/](https://www.reddit.com/r/DragonsDogma/comments/d1kwqp/can_you_transfer_dragons_dogma_saves_from/)
+- 梦境镌刻者（Dreamscaper）
+  - Switch 到 PC：在 DreamscaperSaveSlot 文件添加 ".sav" 扩展名。PC 到 Switch：移除 ".sav" 扩展名
 - 尘埃：伊利西恩传说（Dust: An Elysian Tale）
 - 消逝的光芒（Dying Light）
   - [https://www.reddit.com/r/SwitchPirates/comments/qb23vk/dying_light_pc_to_switch_save_transfer_super_easy/](https://www.reddit.com/r/SwitchPirates/comments/qb23vk/dying_light_pc_to_switch_save_transfer_super_easy/)
