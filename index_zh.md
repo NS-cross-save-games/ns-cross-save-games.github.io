@@ -138,6 +138,8 @@ lang: zh
   - [https://www.reddit.com/r/SwitchPirates/comments/10j8ard/persona_4_goldenpersona_3_portable_pc_steam_to/](https://www.reddit.com/r/SwitchPirates/comments/10j8ard/persona_4_goldenpersona_3_portable_pc_steam_to/)
 - 女神异闻录 5 皇家版（Persona 5 Royal）
   - [https://www.reddit.com/r/SwitchPirates/comments/yb3ngd/is_there_a_way_to_transfer_saves_between_pc_and/](https://www.reddit.com/r/SwitchPirates/comments/yb3ngd/is_there_a_way_to_transfer_saves_between_pc_and/)
+- 女神异闻录 5 乱战：魅影攻手（Persona 5 Strikers）
+  - [zarroboogs/p5spc.saveutil](https://github.com/zarroboogs/p5spc.saveutil/blob/master/README.md)
 - 滚动枪手（Rolling Gunner）
 - 符文工房 3 特别版（Rune Factory 3 Special）
 - 符文工房 4 特别版（Rune Factory 4 Special）
